@@ -8,8 +8,8 @@ MongoDB admin is pure JavaScript (jQuery) and HTML/CSS with a REST backend
 written in Python. The REST API included in MongoDB has some issues[1], that
 make it unpossible at the moment to use MongoDBs full advantages.
 
-[1] Supplying ?filter__id=5sdf34sdfsdf => results in _id=5, but
-?filter__id=asdf works well.
+[1] Supplying <pre>?filter__id=5sdf34sdfsdf</pre> => results in _id=5, but
+<pre>?filter__id=asdf</pre> works well.
 
 # Installation
 
