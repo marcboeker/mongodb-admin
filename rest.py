@@ -84,7 +84,7 @@ class Root(object):
 			# I'm shure there is a better way
 			docs = []
 			for doc in cursor:
-				docs.append(doc.to_dict())
+				docs.append(doc)
 			
 			# We got everything? Let's go
 			return json.dumps({
